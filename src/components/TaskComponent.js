@@ -24,10 +24,12 @@ function Task(props) {
             <div className="col-12">
             <Table size="sm" bordered>
             <thead>
-                <th>Project</th>
-                <th>Task</th>
-                <th>Assignto</th>
-                <th>Progress</th>
+                <tr>
+                    <th>Project</th>
+                    <th>Task</th>
+                    <th>Assignto</th>
+                    <th>Progress</th>
+                </tr>
             </thead>
             <Rendertask tasks={props.tasks}/>
         </Table>

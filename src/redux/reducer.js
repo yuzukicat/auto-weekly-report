@@ -1,6 +1,6 @@
-import { LASTWEEK } from '../shared/lastweek';
-import { NEXTWEEK } from '../shared/nextweek';
-import { TASKS } from '../shared/tasks';
+import { LASTWEEK } from '../state/lastweek';
+import { NEXTWEEK } from '../state/nextweek';
+import { TASKS } from '../state/tasks';
 
 export const initialState = {
     lastweek: LASTWEEK,

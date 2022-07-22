@@ -39,29 +39,33 @@ function Report(props) {
     return(
         <div className="row row-content">
             <div className="col-12">
-                <p class="report p-0">Last week progress:</p>
+                <p className="report p-0">Last week progress:</p>
             </div>
             <div className="col-12">
                 <Table size="sm" bordered>
                     <thead>
-                        <th>Project</th>
-                        <th>Task</th>
-                        <th>Data</th>
-                        <th>Point</th>
+                        <tr>
+                            <th>Project</th>
+                            <th>Task</th>
+                            <th>Data</th>
+                            <th>Point</th>
+                        </tr>
                     </thead>
                     <Renderlaskweek lastweek={props.lastweek}/>
                 </Table>
             </div>
             <div className="col-12">
-                <p class="report p-0">Next week plan:</p>
+                <p className="report p-0">Next week plan:</p>
             </div>
             <div className="col-12">
                 <Table size="sm" bordered>
                     <thead>
-                        <th>Project</th>
-                        <th>Task</th>
-                        <th>Data</th>
-                        <th>Point</th>
+                        <tr>
+                            <th>Project</th>
+                            <th>Task</th>
+                            <th>Data</th>
+                            <th>Point</th>
+                        </tr>
                     </thead>
                     <Rendernextweek nextweek={props.nextweek}/>
                 </Table>
