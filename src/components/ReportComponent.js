@@ -47,7 +47,7 @@ function Report(props) {
                         <tr>
                             <th>Project</th>
                             <th>Task</th>
-                            <th>Data</th>
+                            <th>Date</th>
                             <th>Point</th>
                         </tr>
                     </thead>
@@ -63,7 +63,7 @@ function Report(props) {
                         <tr>
                             <th>Project</th>
                             <th>Task</th>
-                            <th>Data</th>
+                            <th>Date</th>
                             <th>Point</th>
                         </tr>
                     </thead>
