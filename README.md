@@ -7,10 +7,10 @@
     <img src="./src/assets/about-the-project.png" alt="auto-weekly-report" width="80" height="80">
   </a>
 
-  <h3 align="center">auto-weekly-report</h3>
+  <h3 align="center">auto weekly report</h3>
 
   <p align="center">
-    A tool auto generating weekly-report according to your daily activities and easily assign tasks to part-time staff, saving your time editing powerpoint or google slide when adjusting styles with stupid right-click menu.
+    A tool auto generating weekly report according to your daily activities and easily assign tasks to part-time staff, saving your time of editing powerpoint or google slide avoiding adjusting styles with right-click menu.
     <br />
     <a href="https://github.com/yuzukicat/auto-weekly-report/issues">Report Issue</a>
     ·
@@ -98,6 +98,8 @@ src/components/FooterComponents
 src/state
 ```
 
+* Take a screenshot and use it in your google slide.
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
@@ -122,6 +124,7 @@ Yuzuki.Cat - yuzuki.cat@kamisu66.com
 ## Acknowledgments
 
 Please share useful links here for reference.
+Going to use recoil to replace redux.
 
 * [recoil](https://recoiljs.org/)
 
