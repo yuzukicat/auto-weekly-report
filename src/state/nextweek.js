@@ -1,30 +1,16 @@
 export const NEXTWEEK = [
   {
     id: 0,
-    project: 'Project1Name',
-    title: 'Sub-Task 10200 Task Title',
-    date: 'Fri, July 22',
-    point: '1.5 point',
+    project: 'ProjectName',
+    title: 'TaskName',
+    date: 'Fri, Jan 6',
+    point: '9',
   },
   {
     id: 1,
     project: undefined,
-    title: 'Sub-Task 10201 Task Title',
-    date: 'Fri, July 22',
-    point: '7 point',
-  },
-  {
-    id: 2,
-    project: 'Project2Name',
-    title: 'Sub-Task 20300 Task Title',
-    date: 'Fri, July 22',
-    point: '1 point',
-  },
-  {
-    id: 3,
-    project: undefined,
-    title: 'Sub-Task 20301 Task Title',
-    date: 'Fri, July 22',
-    point: '',
+    title: 'TaskName2',
+    date: 'Tues, Jan 10',
+    point: '9',
   }
 ];

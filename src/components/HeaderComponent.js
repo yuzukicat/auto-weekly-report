@@ -9,7 +9,7 @@ class Header extends Component {
         <Navbar dark>
             <div className="row row-header text-light p-0 justify-content-center">
               <div className="col-12">
-                <h1>YourName</h1>
+                <h1>Your Name</h1>
               </div>
             </div>
             <Nav navbar>

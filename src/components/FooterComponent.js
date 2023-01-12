@@ -5,7 +5,7 @@ function Footer() {
         <div className="row">
             <div className="col-12">
                 <div className="footer text-light p-0">
-                    <p>&nbsp;&nbsp;CompanyName</p>
+                    <p>&nbsp;&nbsp;Company Name</p>
                 </div>
             </div>
         </div>

@@ -13,7 +13,8 @@ const mapStateToProps = state => {
   return {
     lastweek: state.lastweek,
     nextweek: state.nextweek,
-    tasks: state.tasks
+    tasks: state.tasks,
+    cloudservices: state.cloudservices,
   }
 }
 
@@ -25,7 +26,7 @@ class Main extends Component {
         <Routes>
           <Route path="report" element={ <Report lastweek={this.props.lastweek} nextweek={this.props.nextweek} /> }>
           </Route>
-          <Route path="tasks" element={ <Task tasks={this.props.tasks} /> }>
+          <Route path="tasks" element={ <Task tasks={this.props.tasks} cloudservices={this.props.cloudservices} /> }>
           </Route>
         </Routes>   
         <Footer />

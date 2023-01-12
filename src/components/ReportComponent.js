@@ -9,7 +9,7 @@ function Renderlaskweek({lastweek}) {
                     <tr>
                         <td>{ lastweek.project }</td>
                         <td>{ lastweek.title }</td>
-                        <td>{ lastweek.data }</td>
+                        <td>{ lastweek.date }</td>
                         <td>{ lastweek.point }</td>
                     </tr>
                 </tbody>
@@ -26,7 +26,7 @@ function Rendernextweek({nextweek}) {
                     <tr>
                         <td>{ nextweek.project }</td>
                         <td>{ nextweek.title }</td>
-                        <td>{ nextweek.data }</td>
+                        <td>{ nextweek.date }</td>
                         <td>{ nextweek.point }</td>
                     </tr>
                 </tbody>
@@ -55,7 +55,7 @@ function Report(props) {
                 </Table>
             </div>
             <div className="col-12">
-                <p className="report p-0">Next week plan:</p>
+                <p className="report p-0">The Following Tasks Need Help:</p>
             </div>
             <div className="col-12">
                 <Table size="sm" bordered>

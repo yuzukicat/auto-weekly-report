@@ -1,9 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 .navbar-dark {
   background-color: #0c5393;
 }
 .row-header{
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'JetBrains Mono';
   color:floralwhite;
   margin:0px auto;
   padding:0px auto;
@@ -13,20 +12,25 @@
   padding:0px auto;
   min-height:500px;
 }
+.row-card{
+  max-width: 62%;
+  margin:0px -5px;
+  padding:0px -5px;
+}
 .footer{
   background-color: #0c5393;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'JetBrains Mono';
   color:floralwhite;
   margin:0px auto;
   padding:0px auto;
 }
 .table{
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'JetBrains Mono';
   margin:0px auto;
   padding:0px auto;
 }
 .report{
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'JetBrains Mono';
   color: #666666;
   margin:0px auto;
   padding:0px auto;
